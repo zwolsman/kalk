@@ -17,7 +17,7 @@ fun main(args: Array<String>) {
     println(kalk.reset(kalk.bold(kalk.magenta("im", kalk.blue("fat")))))
     println()
     println(kalk.reset("You have", kalk.red("7"), "lives left"))
-    println(kalk.reset("Today will be", kalk.blue("windy"), "and the temperature will be", kalk.whiteBright("21°C")))
+    println(kalk.reset("Today will be", kalk.blue("windy"), "and the temperature will be", kalk.italic(kalk.whiteBright("21°C"))))
 }
 ```
 
