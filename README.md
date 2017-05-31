@@ -24,3 +24,39 @@ fun main(args: Array<String>) {
 Will produce
 
 ![screenshot](https://lensert.com/HJA9kH2Zb)
+
+## Styles
+
+### Modifiers
+
+- `reset`
+- `bold`
+- `dim`
+- `italic` *(not widely supported)*
+- `underline`
+- `inverse`
+- `hidden`
+- `strikethrough` *(not widely supported)*
+
+### Colors
+
+- `black`
+- `red`
+- `green`
+- `yellow`
+- `blue` *(on Windows the bright version is used since normal blue is illegible)*
+- `magenta`
+- `cyan`
+- `white`
+- `gray`
+
+### Background colors
+
+- `bgBlack`
+- `bgRed`
+- `bgGreen`
+- `bgYellow`
+- `bgBlue`
+- `bgMagenta`
+- `bgCyan`
+- `bgWhite`
