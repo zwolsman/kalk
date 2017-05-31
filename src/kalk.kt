@@ -44,14 +44,3 @@ object kalk {
     fun bgCyanBright(vararg ts: String): String = "\u001B[106m" + ts.joinToString(separator = " ") + "\u001B[49m"
     fun bgWhiteBright(vararg ts: String): String = "\u001B[107m" + ts.joinToString(separator = " ") + "\u001B[4m"
 }
-
-fun main(args: Array<String>) {
-    println(kalk.red("red string", "amazing", kalk.blue("does this work?")))
-    println(kalk.yellow("woah!"))
-
-    println(kalk.bgMagenta(kalk.greenBright("lol")))
-    println("a bit from the last")
-    println(kalk.reset("original"))
-    println(kalk.bgBlackBright(kalk.whiteBright("white on black bby")))
-    println(kalk.reset(kalk.bold(kalk.magenta("im", kalk.blue("fat")))))
-}
